@@ -3,9 +3,6 @@ from database import load_jobs_db
 
 app = Flask(__name__)
 
-#a list of dictionaries
-
-
 
 @app.route("/")
 def hello_world():
